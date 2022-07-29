@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "allure-commandline": "^2.18.1",
+    "chromium": "^3.0.3",
+    "cucumber": "^6.0.7",
+    "cucumber-html-reporter": "^5.5.0",
+    "devtools": "^7.20.7",
+    "image-to-base64": "^2.2.0",
+    "png-js": "^1.0.0",
+    "redux-devtools-extension": "^2.13.9",
+    "testcafe": "^1.20.0-alpha.1",
+    "testcafe-reporter-allure": "^1.0.5",
+    "testcafe-reporter-html": "^1.4.6",
+    "testcafe-reporter-xunit": "*"
+  },
+  "name": "testcafedemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome:headless tests/**/* --reporter spec,xunit:report.xml"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
